@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>border setting</title>
+	<style type="text/css">
+		#cont{
+			width: 500px;
+			height: 500px;
+			background: orange;
+			border: 5px dotted white;
+		}
+
+		.tri-up{
+			width: 0;
+			height: 0;
+			border-top: 0px solid transparent;
+			border-right: 60px solid transparent;
+			border-bottom: 60px groove green;
+			border-left: 60px solid transparent;
+		}
+
+		#trunk{
+            height: 70px;
+            width: 20px;
+            position: absolute;
+            top: 192.5px;
+            left: 62.5px;
+            background-color: black;
+        }
+	</style>
+</head>
+<body>
+	<div id="cont">
+		<div id="tree">
+			<div class="tri-up"></div>
+			<div class="tri-up"></div>
+			<div class="tri-up"></div>
+			<div id="trunk"></div>
+		</div>
+	</div>
+</body>
+</html>

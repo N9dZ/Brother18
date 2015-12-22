@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>div:distribution--css:control</title>
+</head>
+<style type="text/css">
+	#header{
+		height: 100px;
+		background: green;
+	}
+	#main{
+		height: 500px;
+		background: black;
+	}
+	#footer{
+		height: 300px;
+		background: gray;
+	}
+	.pic{
+		width: 200px;
+		height: 150px;
+		float: left;
+	}
+</style>
+<body>
+	<div id="header"></div>
+	<div id="main">
+		<div class="pic" style="background:purple;"></div>
+		<div class="pic" style="background:red;"></div>
+		<div class="pic" style="background:red; clear: left;"></div>
+		<div class="pic" style="background:purple;"></div>
+	</div>
+	<div id="footer">
+		<div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+</body>
+</html>
